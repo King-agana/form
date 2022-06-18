@@ -147,7 +147,7 @@ main .formm .contact .input-control input:focus:invalid~.error{
     transition: border 10ms;
     color: hsl(0, 0%, 100%,  0.75);
 }
- main  .formm .contact .input-conttol input:focus:invalid~.error::after{
+ main  .formm .contact .input-control input:focus:invalid~.error::after{
 content: attr(data-error);
 color: red;
 position: absolute;
